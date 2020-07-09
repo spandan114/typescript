@@ -83,3 +83,12 @@ let age : any;
 age = "spandan";
 console.log(age);
 ```
+## Better Workflow
+Initialize TS configuration
+``` 
+tsc --init 
+```
+- rootDir // input files where TS file pesent
+-outDir   // output files 
+- "include":["Folder name"]  // add this in end of tsconfic
+It means exicute those ts file which is inside Specifiedfolder
