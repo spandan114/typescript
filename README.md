@@ -42,3 +42,27 @@ const circ = (diameter:number) =>{
 }
 console.log(circ(243))  // But here we can pass only numbers
 ```
+## Objects & Array in TS
+
+If you declare a array with same datatype then you cant push another datatype in that array
+```
+let names = ['spandan' , 'aman' ,'shankar' ,'lala'];  //only char
+let numbers = [5,6,3,4,62];                           // only num
+let mixed = ['spandan' , 3 ,'shankar',4 ,'lala'];     // mixed
+
+names.push('rehan');
+mixed.push(3);
+
+ name.push(4); // Error
+```
+similarly for pbjects also you cant add other type of dataType
+```
+let human = {
+    name:'spandan',
+    age: 19,
+    sex:'male'
+}
+
+human.age = 20;
+human.age = 'sj';
+```
