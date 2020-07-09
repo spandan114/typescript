@@ -55,7 +55,7 @@ mixed.push(3);
 
  name.push(4); // Error
 ```
-similarly for pbjects also you cant add other type of dataType
+similarly for objects also you cant add other type of dataType
 ```
 let human = {
     name:'spandan',
@@ -65,4 +65,21 @@ let human = {
 
 human.age = 20;
 human.age = 'sj';
+```
+## Explicit Type in TS
+We know that define dataType is important in typescript . so Explicitly we define Datatype of a variable 
+
+```
+let age: number;  // you can't change datatType of age again
+let character:string;
+let isLogedin: boolean;
+let human: string[] = [];  //only string
+let mixed: (string!number!biilian)[] = [];  //only string
+```
+## Dinamic (any) Type in TS
+
+```
+let age : any;
+age = "spandan";
+console.log(age);
 ```
