@@ -111,3 +111,17 @@ const add = (a:number,b:number,c?: number | string) => {
 }
 add(5,8)
 ```
+### Function Signatures
+```
+let greet: (a:string,b:string) =>void;
+greet = (name : string,greetings:string) =>{
+    console.log(`${name} says ${greetings}`)
+}
+greet("spandan","hello");
+
+let calc: (n1:number, n2:number) =>number; 
+calc = (num1:number,num2:number)=>{
+    return num1+num2;
+}
+calc(1,6);
+```
