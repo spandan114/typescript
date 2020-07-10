@@ -92,3 +92,5 @@ tsc --init
 -outDir   // output files 
 - "include":["Folder name"]  // add this in end of tsconfic
 It means exicute those ts file which is inside Specifiedfolder
+
+## Function
