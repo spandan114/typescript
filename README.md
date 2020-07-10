@@ -94,3 +94,20 @@ tsc --init
 It means exicute those ts file which is inside Specifiedfolder
 
 ## Function
+
+```
+let greet:Function;
+
+greet = () =>{
+    console.log("hello")
+}
+greet();
+```
+Optional parameter
+```
+const add = (a:number,b:number,c?: number | string) => {
+    console.log(a+b);
+    console.log(c);
+}
+add(5,8)
+```
