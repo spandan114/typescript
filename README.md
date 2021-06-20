@@ -142,7 +142,4 @@ calc = (num1:number,num2:number)=>{
 }
 calc(1,6);
 ```
-## Dom manuepulation and Typecasting
-```
 
-```
