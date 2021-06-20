@@ -12,16 +12,33 @@ Compile Typescript
 ```
 tsc filename.ts
 ```
- Recompile ts file automatically
+ Watch ts file 
  ```
- tsc filename.ts -w
+ tsc filename.ts --watch or tsc filename.ts -w
 ```
-
-## Type in TS
+Target Version 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020'
+```
+tsc filename.ts --target es2020 --watch
+```
+Change output file name
+```
+tsc filename.ts --target es2020 --outfile site.js --watch
+```
+Change directry name
+```
+tsc filename.ts --target es2020 --outDir dist --watch
+```
+## Data type in TS
 
 We can define spacific data type in typescript but we cant do same thing in JS
 we can declare variable using let , var or const 
-
+- Boolean
+- Number
+- String
+- Object
+- Array
+- Tuple
+- Void
 ```
 let age = 30;
 let isBlack = true
