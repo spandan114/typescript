@@ -143,7 +143,7 @@ calc = (num1:number,num2:number)=>{
 calc(1,6);
 ```
 ### Interface
-Blueprint of object .user for validating object
+Blueprint of object . user for validating object
 Similar like mongoose model
 ```
 //create interface
