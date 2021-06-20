@@ -142,4 +142,40 @@ calc = (num1:number,num2:number)=>{
 }
 calc(1,6);
 ```
+### Interface
+Blueprint of object .user for validating object
+Similar like mongoose model
+```
+//create interface
 
+interface User{
+    id:number;
+    name:string;
+    email:string;
+    isNew?:boolean;
+}
+
+//single obj validation
+let single:User = {
+    id:1,
+    name:"spandan",
+    email:"spandanj685@gmail.com",
+}
+
+//multiple object validation
+
+let multiple:User[] =[
+    {
+        id:1,
+        name:"spandan",
+        email:"spandanj685@gmail.com",
+        isNew:true
+    },
+    {
+        id:2,
+        name:"spandan",
+        email:"spandanj685@gmail.com",
+        isNew:true
+    }
+]
+```
